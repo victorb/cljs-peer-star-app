@@ -16,6 +16,8 @@ Currently what works:
 Achieved with the following commands:
 
 ```
+yarn
+yarn webpack
 clj -m cljs.main -co build.edn -v -c
 clj -m cljs.main -s
 ```
