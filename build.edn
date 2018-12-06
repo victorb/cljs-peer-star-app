@@ -1,0 +1,9 @@
+{:main cljs-peer-star-app.core
+ :output-to "out/main.js"
+ :output-dir "out"
+ :infer-externs true
+ :parallel-build true
+ :npm-deps false
+ :foreign-libs [{:file "dist/index_bundle.js"
+                 :provides ["peer-star-app"]
+                 :global-exports {peer-star-app PeerStarApp}}]}
